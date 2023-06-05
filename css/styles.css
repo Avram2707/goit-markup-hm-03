@@ -49,6 +49,7 @@ ul {
 .header {
         padding-top: 25px;
         padding-bottom: 25px;
+        border-bottom: 1px solid #e7e9fc;
 }
 
 .header-menu {
@@ -66,7 +67,9 @@ ul {
 .header-navigation {
         display: flex;
         flex-grow: 1;
-        justify-content: space-between; 
+        justify-content: space-between;
+        align-items: center;
+        
 }
 
 .header-container {
@@ -88,6 +91,8 @@ ul {
         letter-spacing: 0.03em;
         color: #4D5AE5;
         flex-grow: 1;
+        margin-right: 76px;
+        padding: 24px 0 24px;
 }
 
 .header-logo span {
@@ -355,6 +360,10 @@ ul {
 }
 
 /**-----------------PORTFOLIO----------------**/
+
+.img {
+        display: block;
+}
 .visually-hidden {
         position: absolute;
         width: 1px;
