@@ -352,35 +352,34 @@ ul {
 }
 
 /**-----------------PORTFOLIO----------------**/
-
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0 );
+        overflow: hidden;
+}
 .portfolio-button {
+        padding: 96px 0 120px 0;
 
 }
 
 .portfolio-button-list {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-right: 24px;
+        margin-bottom: 72px;
 
 }
 
 .portfolio-button-item {
 
-}
-
-.container-photoa {
-        display: flex;
-        gap: 24px;
-        padding-bottom: 48px;               
-}
-
-.container-photob {
-        display: flex;
-        gap: 24px;
-        padding-bottom: 48px;      
-}
-
-.container-photoc {
-        display: flex;
-        gap: 24px;
-        padding-bottom: 120px;
 }
 
 .container-button {
@@ -406,6 +405,13 @@ ul {
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
+}
+
+.container-list-a {
+        padding: 12px 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
+        
 }
 
 
