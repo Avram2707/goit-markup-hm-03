@@ -211,6 +211,10 @@ img {
         width: 264px;
                        
 }
+.conteiner-strategies {
+        width: calc((100% - 3 * 24px) / 4);
+
+}
 
 .strategies-subtitle {
         font-weight: 500;
@@ -219,8 +223,7 @@ img {
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
-        width: calc((100% - 3 * 24px) / 4);
-        
+                
 }
 
 .strategies-item-text {
