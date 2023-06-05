@@ -382,7 +382,16 @@ ul {
 }
 
 .portfolio-button-item {
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
 
+}
+.portfolio-button-item:hover {
+        border: 1px solid transparent;
+}
+
+.portfolio-button-item:focus {
+        border: 1px solid transparent;
 }
 
 .container-button {
@@ -408,6 +417,18 @@ ul {
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
+}
+
+.portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+}
+.portfolio-clas-banking {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
 
 
@@ -454,6 +475,7 @@ ul {
         padding-bottom: 8px;
         padding-left: 16px;
         padding-right: 54px;
+        margin-bottom: 8px;
 }
 
 .portfolio-item-text {
