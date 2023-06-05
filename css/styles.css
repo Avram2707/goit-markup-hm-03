@@ -156,6 +156,7 @@ img {
 
 .hero { 
         padding-bottom: 120px;
+        padding: 188px 0;
              
 }
 
@@ -178,6 +179,8 @@ img {
         border-radius: 4px;
         display: block;
         min-width: 169px;
+        height: 56px;
+        border: none;
 }
 
 .hero-btn:hover {
@@ -205,8 +208,7 @@ img {
 
 .strategies-item {
         width: 264px;
-        width: calc((100% - 72px) / 4);
-
+        
 }
 
 .strategies-subtitle {
@@ -216,6 +218,7 @@ img {
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
+        width: calc((100% - 72px) / 4);
 }
 
 .strategies-item-text {
