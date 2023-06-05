@@ -203,12 +203,12 @@ img {
         padding-left: 156px;
         padding-right: 156px;
         gap: 24px;
-        width: calc((100% - 72px) / 4);
-       
+               
 }
 
 .strategies-item {
         width: 264px;
+        width: calc((100% - 72px) / 4);
         
 }
 
