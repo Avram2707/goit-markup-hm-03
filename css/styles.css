@@ -386,6 +386,7 @@ ul {
         border-radius: 4px;
 
 }
+
 .portfolio-button-item:hover {
         border: 1px solid transparent;
 }
@@ -393,7 +394,6 @@ ul {
 .portfolio-button-item:focus {
         border: 1px solid transparent;
 }
-
 .container-button {
         display: flex;
         gap: 24px;
@@ -417,7 +417,20 @@ ul {
         padding-bottom: 12px;
         padding-left: 24px;
         padding-right: 24px;
+        border: 1px solid #e7e9fc;
+        border-radius: 4px;
 }
+
+
+.portfolio-button-text:hover {
+        border: 1px solid transparent;
+}
+
+.portfolio-button-text:focus {
+        border: 1px solid transparent;
+}
+
+
 
 .portfolio-list {
         display: flex;
