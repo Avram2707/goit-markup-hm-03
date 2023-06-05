@@ -25,15 +25,16 @@ ul {
         padding-left: 0;
 }
 
+img {
+        display: block;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
     list-style-type: none;
-}
-.img {
-        display: block;
 }
 
 .container {
@@ -110,7 +111,8 @@ ul {
         font-size: 16px;
         line-height: 1.50;
         letter-spacing: 0.02em; 
-        color:#2E2F42;;
+        color:#2E2F42;
+        padding: 24px 0;
 }
 
 .header-address-menu-link {
@@ -154,16 +156,13 @@ ul {
 
 .hero { 
         padding-bottom: 120px;
-     
+             
 }
 
 .hero-container {
         background-color: #2E2F42;
-        padding-top: 188px;
-        padding-bottom: 292px;
-        padding-left: 472px;
-        padding-right: 472px;
-        
+        padding: 188px 0;
+                
 }
 
 .hero-btn {
@@ -176,7 +175,9 @@ ul {
         letter-spacing: 0.04em;
         color: #FFFFFF;
         cursor:pointer;
-        border: none;
+        border-radius: 4px;
+        display: block;
+        min-width: 169px;
 }
 
 .hero-btn:hover {
@@ -191,6 +192,7 @@ ul {
 
 .strategies {
         padding-bottom: 120px;
+        padding: 120px 0;
 }
 
 .strategies-list {
@@ -198,10 +200,12 @@ ul {
         padding-left: 156px;
         padding-right: 156px;
         gap: 24px;
+       
 }
 
 .strategies-item {
         width: 264px;
+        width: calc((100% - 72px) / 4);
 
 }
 
@@ -235,7 +239,7 @@ ul {
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color:var(--title-color);
-        margin-bottom: 42px;
+        margin-bottom: 72px;
 
 }
 
