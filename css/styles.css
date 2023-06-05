@@ -196,18 +196,18 @@ img {
 .strategies {
         padding-bottom: 120px;
         padding: 120px 0;
-                
+                        
 }
 
 .strategies-list {
         display: flex;
-        width: calc((100% - 72px) / 4);
         gap: 24px;
-               
+                       
 }
 
 .strategies-item {
         width: 264px;
+        width: calc((100% - 72px) / 4);
                        
 }
 
@@ -218,6 +218,7 @@ img {
         letter-spacing: 0.02em;
         color: #2E2F42;
         margin-bottom: 8px;
+        width: calc((100% - 72px) / 4);
                 
 }
 
@@ -227,7 +228,7 @@ img {
         line-height: 1.50;
         letter-spacing: 0.02em;
         color: #434455;
-        
+                
 }
 
 /**TODO-----------------PHOTO----------------**/
